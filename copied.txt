@@ -1,0 +1,8 @@
+class Audition(Base):
+    __tablename__ = 'auditions'
+
+    id = Column(Integer(), primary_key = True)
+    actor = Column(String())
+    location = Column(String())
+    phone = Column(Integer())
+    hired = Column(Boolean())
